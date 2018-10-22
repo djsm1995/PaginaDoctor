@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Invoice xmlns="urn:oasis:names:specification:ubl:schema:xsd:Invoice-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:ccts="urn:un:unece:uncefact:documentation:2" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2" xmlns:qdt="urn:oasis:names:specification:ubl:schema:xsd:QualifiedDatatypes-2" xmlns:sac="urn:sunat:names:specification:ubl:peru:schema:xsd:SunatAggregateComponents-1" xmlns:schemaLocation="urn:oasis:names:specification:ubl:schema:xsd:Invoice-2 ..\xsd\maindoc\UBLPE-Invoice-1.0.xsd" xmlns:udt="urn:un:unece:uncefact:data:specification:UnqualifiedDataTypesSchemaModule:2">
+   <ext:UBLExtensions>
+      <ext:UBLExtension>
+         <ext:ExtensionContent>
+            <sac:AdditionalInformation>
+               <sac:AdditionalMonetaryTotal>
+                  <cbc:ID>1001</cbc:ID>
+                  <cbc:PayableAmount currencyID="PEN">0.00</cbc:PayableAmount>
+               </sac:AdditionalMonetaryTotal>
+               <sac:AdditionalMonetaryTotal>
+                  <cbc:ID>1002</cbc:ID>
+                  <cbc:PayableAmount currencyID="PEN">0.00</cbc:PayableAmount>
+               </sac:AdditionalMonetaryTotal>
+               <sac:AdditionalMonetaryTotal>
+                  <cbc:ID>1003</cbc:ID>
+                  <cbc:PayableAmount currencyID="PEN">0.00</cbc:PayableAmount>
+               </sac:AdditionalMonetaryTotal>
+               <sac:AdditionalMonetaryTotal>
+                  <cbc:ID>1004</cbc:ID>
+                  <cbc:PayableAmount currencyID="PEN">295.00</cbc:PayableAmount>
+               </sac:AdditionalMonetaryTotal>
+               <sac:AdditionalProperty>
+                  <cbc:ID>1000</cbc:ID>
+                  <cbc:Value>CERO CON 0/100 NUEVOS SOLES</cbc:Value>
+               </sac:AdditionalProperty>
+               <sac:AdditionalProperty>
+                  <cbc:ID>1002</cbc:ID>
+                  <cbc:Value>TRANSFERENCIA GRATUITA DE UN BIEN Y/O SERVICIO PRESTADO GRATUITAMENTE</cbc:Value>
+               </sac:AdditionalProperty>
+               <sac:SUNATTransaction>
+                  <cbc:ID>01</cbc:ID>
+               </sac:SUNATTransaction>
+            </sac:AdditionalInformation>
+         </ext:ExtensionContent>
+      </ext:UBLExtension>
+      <ext:UBLExtension>
+         <ext:ExtensionContent>
+            <sac:AdditionalInformationTCI>
+               <sac:TCICustomer>
+                  <cbc:Network>TCI</cbc:Network>
+               </sac:TCICustomer>
+            </sac:AdditionalInformationTCI>
+         </ext:ExtensionContent>
+      </ext:UBLExtension>
+      <ext:UBLExtension>
+         <ext:ExtensionContent>
+            <cac:DocumentAlias>
+               <cac:IdentificadorInterno>11020</cac:IdentificadorInterno>
+            </cac:DocumentAlias>
+         </ext:ExtensionContent>
+      </ext:UBLExtension>
+      <ext:UBLExtension>
+         <ext:ExtensionContent>
+            <sac:Additionalsellingprice>
+               <sac:Detail>
+                  <cbc:Item>1</cbc:Item>
+                  <cbc:UnitCommercialCode>SERV</cbc:UnitCommercialCode>
+               </sac:Detail>
+            </sac:Additionalsellingprice>
+         </ext:ExtensionContent>
+      </ext:UBLExtension>
+      <ext:UBLExtension>
+         <ext:ExtensionContent>
+            <Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="signatureKG">
+               <SignedInfo>
+                  <CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" />
+                  <SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" />
+                  <Reference URI="">
+                     <Transforms>
+                        <Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" />
+                     </Transforms>
+                     <DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+                     <DigestValue>e5+wb4tkqRm/SNMX2Qp55Q3Gov4=</DigestValue>
+                  </Reference>
+               </SignedInfo>
+               <SignatureValue>P/8pgZ+T8dPBDzCMjyoREANfboYoPWjFlTuIUTi5AgQ0uDWlHI/NKbdYkSs/3ISkM3vYLriqkQ9cxryecAHiqETYOyEG3cKRWJiBpUHONcj24vMnlqeBUxl0hc5Jg1m0MCEEJ7uqyqWMFP9cOqU3eDA0Th7GiRbuys3aYdTCzD+kI7WD4203mt//z5o9B2WigK0lPvLWw5bnCH8FToSJULAdJq3adLMwu4K7KS0xxh6tC/e7fx82lnCB5S29LYI5aJ6fHNyq/Tn/qxNMN7qofg3RTj2Ut0MO9htxegE9bpCTCDJW1WqNo145nDUTBZ8JiSsWfoiTqiea5oHRPMaXjQ==</SignatureValue>
+               <KeyInfo>
+                  <X509Data>
+                     <X509SubjectName>CN=Renzo Alcantara del Cuadro, OU=20112811096, O=TCI S.A. TRANSPORTE CONFIDENCIAL DE INFORMACIÓN, L=San Isidro, S=Lima, C=PE, E=jronceros@tci.net.pe</X509SubjectName>
+                     <X509Certificate>MIIEFjCCAv6gAwIBAgIEVunUMzANBgkqhkiG9w0BAQsFADCBzDEjMCEGCSqGSIb3DQEJARYUanJvbmNlcm9zQHRjaS5uZXQucGUxCzAJBgNVBAYTAlBFMQ0wCwYDVQQIDARMaW1hMRMwEQYDVQQHDApTYW4gSXNpZHJvMTkwNwYDVQQKDDBUQ0kgUy5BLiBUUkFOU1BPUlRFIENPTkZJREVOQ0lBTCBERSBJTkZPUk1BQ0nDk04xFDASBgNVBAsMCzIwMTEyODExMDk2MSMwIQYDVQQDDBpSZW56byBBbGNhbnRhcmEgZGVsIEN1YWRybzAeFw0xNjAzMTYyMTQ3NTRaFw0xOTAzMTYyMTQ3NTRaMIHMMSMwIQYJKoZIhvcNAQkBFhRqcm9uY2Vyb3NAdGNpLm5ldC5wZTELMAkGA1UEBhMCUEUxDTALBgNVBAgMBExpbWExEzARBgNVBAcMClNhbiBJc2lkcm8xOTA3BgNVBAoMMFRDSSBTLkEuIFRSQU5TUE9SVEUgQ09ORklERU5DSUFMIERFIElORk9STUFDScOTTjEUMBIGA1UECwwLMjAxMTI4MTEwOTYxIzAhBgNVBAMMGlJlbnpvIEFsY2FudGFyYSBkZWwgQ3VhZHJvMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAn6kcJFSeK8Ad5Sw3kdaD8Wg7A5FfNorb3ktOfhBLiPBQ4youWyTH53tuEtEsshXGf5oqGCRxCBjB4Xq65rUEKMH1EWzuRjrFDZXYnH8fUfKS4+X+QyiNJGll1dllt6DBJIxkSG/bWfHGW6oKxVQF2ilVxVJDJGpmN97lzJoyptiZSg+Nvbn6hVOQG9g2tA5i3++2x4mMtKk45JUggQ3qWsq68k6FAqzIe4z2+SjnVB69p30TTejvIVOoJ7rM6Nq5Kpt4gXmlGT5Xe4LCsSIWajBvmJ6GTTVN+qpIzc9Rl1FHzeAE/ApZUbFZ/JB8/91Uqgu0/nJceoyKR4zqOdq5eQIDAQABMA0GCSqGSIb3DQEBCwUAA4IBAQBLCDyLW3KYtfbt0azc/EKDHd1wYG4XTBxzr56BEJzp8W6mHYpMQ4NEWkPl3IGK8QBlM/faiQstpr6a8dMGrDEBf6Triy1uqiIIzyGAvdyduK5+Kq/0Najh3lUpfCFuj0ZeKELjrfIYiIQPpG79vq/6m8Cy6jw4fWKNSDzlW3TBDSPpdHVb+5IwyHsIyzYnvVTSQmeweErD0HSRF69feKIjurajUTMRj37ok0fl8nYZfKZScC8NOiXDGpCt+2fhiW+WG/OSJ21PO7HO6kerPGMLQ+badpUWVT7g3LyRCdS3m15/PFJFWaqAWbe9weVXt0SOx52OmaLqEJk1+N8sMd43</X509Certificate>
+                  </X509Data>
+               </KeyInfo>
+            </Signature>
+         </ext:ExtensionContent>
+      </ext:UBLExtension>
+   </ext:UBLExtensions>
+   <cbc:UBLVersionID>2.0</cbc:UBLVersionID>
+   <cbc:CustomizationID>1.0</cbc:CustomizationID>
+   <cbc:ID>B003-4</cbc:ID>
+   <cbc:IssueDate>2017-01-12</cbc:IssueDate>
+   <cbc:InvoiceTypeCode>03</cbc:InvoiceTypeCode>
+   <cbc:Note><![CDATA[TRANSFERENCIA GRATUITA]]></cbc:Note>
+   <cbc:DocumentCurrencyCode>PEN</cbc:DocumentCurrencyCode>
+   <cac:Signature>
+      <cbc:ID>IDSignKG</cbc:ID>
+      <cac:SignatoryParty>
+         <cac:PartyIdentification>
+            <cbc:ID>20112811096</cbc:ID>
+         </cac:PartyIdentification>
+         <cac:PartyName>
+            <cbc:Name><![CDATA[SUNAT]]></cbc:Name>
+         </cac:PartyName>
+      </cac:SignatoryParty>
+      <cac:DigitalSignatureAttachment>
+         <cac:ExternalReference>
+            <cbc:URI>signatureKG</cbc:URI>
+         </cac:ExternalReference>
+      </cac:DigitalSignatureAttachment>
+   </cac:Signature>
+   <cac:AccountingSupplierParty>
+      <cbc:CustomerAssignedAccountID>20112811096</cbc:CustomerAssignedAccountID>
+      <cbc:AdditionalAccountID>6</cbc:AdditionalAccountID>
+      <cac:Party>
+         <cbc:WebsiteURI>www.precisa.com.pe</cbc:WebsiteURI>
+         <cac:PartyName>
+            <cbc:Name><![CDATA[Precisa]]></cbc:Name>
+         </cac:PartyName>
+         <cac:PostalAddress>
+            <cbc:ID>150131</cbc:ID>
+            <cbc:StreetName><![CDATA[AV. CAMINO REAL NRO. 355 INT. 4]]></cbc:StreetName>
+            <cbc:CitySubdivisionName><![CDATA[URB. CENTRO COMERCIAL CAMINO REAL (AL COSTADO DE BEMBOS)6]]></cbc:CitySubdivisionName>
+            <cbc:CityName>LIMA</cbc:CityName>
+            <cbc:CountrySubentity>LIMA</cbc:CountrySubentity>
+            <cbc:District>SAN ISIDRO</cbc:District>
+            <cac:Country />
+         </cac:PostalAddress>
+         <cac:PartyLegalEntity>
+            <cbc:RegistrationName><![CDATA[Analisis Clinicos ML S.A.C]]></cbc:RegistrationName>
+         </cac:PartyLegalEntity>
+         <cac:Contact>
+            <cbc:Telephone>640-1520</cbc:Telephone>
+            <cbc:ElectronicMail>facturacion@precisa.com.pe</cbc:ElectronicMail>
+         </cac:Contact>
+      </cac:Party>
+   </cac:AccountingSupplierParty>
+   <cac:AccountingCustomerParty>
+      <cbc:CustomerAssignedAccountID>47205307</cbc:CustomerAssignedAccountID>
+      <cbc:AdditionalAccountID>1</cbc:AdditionalAccountID>
+      <cac:Party>
+         <cac:PostalAddress>
+            <cbc:CityName>CHICLAYO</cbc:CityName>
+            <cbc:CountrySubentity>LAMBAYEQUE</cbc:CountrySubentity>
+            <cac:Country>
+               <cbc:IdentificationCode>PE</cbc:IdentificationCode>
+            </cac:Country>
+         </cac:PostalAddress>
+         <cac:PartyLegalEntity>
+            <cbc:RegistrationName><![CDATA[CHAVEZ AGUSTIN, JACINTO LEOPOLDO]]></cbc:RegistrationName>
+         </cac:PartyLegalEntity>
+      </cac:Party>
+      <cac:AccountingContact>
+         <cbc:ElectronicMail><![CDATA[JCHAVEZAGUSTIN@GMAIL.COM]]></cbc:ElectronicMail>
+      </cac:AccountingContact>
+   </cac:AccountingCustomerParty>
+   <cac:TaxTotal>
+      <cbc:TaxAmount currencyID="PEN">0.00</cbc:TaxAmount>
+      <cac:TaxSubtotal>
+         <cbc:TaxAmount currencyID="PEN">0.00</cbc:TaxAmount>
+         <cbc:Percent>18</cbc:Percent>
+         <cac:TaxCategory>
+            <cac:TaxScheme>
+               <cbc:ID>1000</cbc:ID>
+               <cbc:Name>IGV</cbc:Name>
+               <cbc:TaxTypeCode>VAT</cbc:TaxTypeCode>
+            </cac:TaxScheme>
+         </cac:TaxCategory>
+      </cac:TaxSubtotal>
+   </cac:TaxTotal>
+   <cac:LegalMonetaryTotal>
+      <cbc:AllowanceTotalAmount currencyID="PEN">0.00</cbc:AllowanceTotalAmount>
+      <cbc:ChargeTotalAmount currencyID="PEN">0.00</cbc:ChargeTotalAmount>
+      <cbc:PayableAmount currencyID="PEN">0.00</cbc:PayableAmount>
+   </cac:LegalMonetaryTotal>
+   <cac:InvoiceLine>
+      <cbc:ID>1</cbc:ID>
+      <cbc:InvoicedQuantity unitCode="NIU">1</cbc:InvoicedQuantity>
+      <cbc:LineExtensionAmount currencyID="PEN">0.00</cbc:LineExtensionAmount>
+      <cac:PricingReference>
+         <cac:AlternativeConditionPrice>
+            <cbc:PriceAmount currencyID="PEN">0.00</cbc:PriceAmount>
+            <cbc:PriceTypeCode>01</cbc:PriceTypeCode>
+         </cac:AlternativeConditionPrice>
+         <cac:AlternativeConditionPrice>
+            <cbc:PriceAmount currencyID="PEN">295</cbc:PriceAmount>
+            <cbc:PriceTypeCode>02</cbc:PriceTypeCode>
+         </cac:AlternativeConditionPrice>
+      </cac:PricingReference>
+      <cac:TaxTotal>
+         <cbc:TaxAmount currencyID="PEN">0.00</cbc:TaxAmount>
+         <cac:TaxSubtotal>
+            <cbc:TaxAmount currencyID="PEN">0.00</cbc:TaxAmount>
+            <cac:TaxCategory>
+               <cbc:TaxExemptionReasonCode>11</cbc:TaxExemptionReasonCode>
+               <cac:TaxScheme>
+                  <cbc:ID>1000</cbc:ID>
+                  <cbc:Name>IGV</cbc:Name>
+                  <cbc:TaxTypeCode>VAT</cbc:TaxTypeCode>
+               </cac:TaxScheme>
+            </cac:TaxCategory>
+         </cac:TaxSubtotal>
+      </cac:TaxTotal>
+      <cac:Item>
+         <cbc:Description><![CDATA[990032 TRANSFERENCIA GRATUITA]]></cbc:Description>
+         <cbc:Description />
+      </cac:Item>
+      <cac:Price>
+         <cbc:PriceAmount currencyID="PEN">0</cbc:PriceAmount>
+      </cac:Price>
+   </cac:InvoiceLine>
+</Invoice>
